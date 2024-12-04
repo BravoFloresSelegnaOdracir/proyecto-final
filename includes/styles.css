@@ -1,0 +1,77 @@
+/* Estilos generales */
+.welcome {
+    display: block;
+    margin: 0 auto;
+    text-align:initial;
+    max-width: 2000%;
+    max-height: 5000px; /* Ajusta el tamaño de la imagen */
+    opacity: inherit;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Barra lateral */
+.sidebar {
+    background-color: #90c0ff;
+    padding: 100px;
+    width: 25%;
+    text-align: center;
+}
+
+.sidebar button {
+    background-color: #0066b9;
+    color: white;
+    padding: 25px;
+    width: 80%;
+    margin-bottom: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidebar button:hover {
+    background-color: #b89702;
+}
+
+/* Contenido dinámico */
+.content {
+    width: 75%;
+    padding: 20px;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}

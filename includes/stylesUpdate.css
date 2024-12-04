@@ -1,0 +1,121 @@
+/* Update Form Container */
+.container-update {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+/* Title Styling */
+.container-update h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #14213d;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.form-update {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #14213d;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #fca311;
+}
+
+.form-group.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #fca311;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #D9663D;
+    color: #210F26;
+}
+
+.btn-secondary {
+    background-color: #14213d;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-secondary:hover {
+    background-color: #394867;
+    color: #fca311;
+}
+
+/* Estilo para el botón Update */
+.btn-update {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff; /* Texto blanco */
+    background-color: #007BFF; /* Azul primario */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover para el botón */
+.btn-update:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+    transform: scale(1.05); /* Efecto de aumento */
+}
+
+/* Botón al ser presionado */
+.btn-update:active {
+    transform: scale(0.95); /* Efecto de pulsación */
+}
+
+/* Para deshabilitar el botón (opcional) */
+.btn-update:disabled {
+    background-color: #cccccc; /* Gris claro */
+    cursor: not-allowed;
+}
